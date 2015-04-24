@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3560067C1ADEDB1A00A2E309 /* LogarithimParameterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560067B1ADEDB1A00A2E309 /* LogarithimParameterViewController.m */; };
+		3560067F1ADEDB3F00A2E309 /* FactoringParameterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560067E1ADEDB3F00A2E309 /* FactoringParameterViewController.m */; };
+		356006821ADEDB5F00A2E309 /* FirstDegreeParameterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356006811ADEDB5F00A2E309 /* FirstDegreeParameterViewController.m */; };
+		356006851ADEFE7600A2E309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356006831ADEFE7600A2E309 /* Main.storyboard */; };
+		3568F67E1AE175860029A4CF /* EquationInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 3568F67D1AE175860029A4CF /* EquationInfos.m */; };
+		3568F6821AE180F80029A4CF /* EquationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3568F6811AE180F80029A4CF /* EquationController.m */; };
 		357310891AD6EC72008878CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 357310881AD6EC72008878CC /* main.m */; };
 		3573108C1AD6EC72008878CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3573108B1AD6EC72008878CC /* AppDelegate.m */; };
 		3573108F1AD6EC72008878CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3573108E1AD6EC72008878CC /* ViewController.m */; };
-		357310921AD6EC72008878CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357310901AD6EC72008878CC /* Main.storyboard */; };
 		357310941AD6EC72008878CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357310931AD6EC72008878CC /* Images.xcassets */; };
 		357310971AD6EC72008878CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357310951AD6EC72008878CC /* LaunchScreen.xib */; };
 		357310A31AD6EC73008878CC /* MathemagicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 357310A21AD6EC73008878CC /* MathemagicsTests.m */; };
+		35CB19A71AE1A83A00160C2F /* Bhaskara.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CB199E1AE1A83A00160C2F /* Bhaskara.m */; };
+		35CB19A81AE1A83A00160C2F /* Fatoracao.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CB19A01AE1A83A00160C2F /* Fatoracao.m */; };
+		35CB19A91AE1A83A00160C2F /* FirstGrade.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CB19A21AE1A83A00160C2F /* FirstGrade.m */; };
+		35CB19AA1AE1A83A00160C2F /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CB19A41AE1A83A00160C2F /* Fraction.m */; };
+		35CB19AB1AE1A83A00160C2F /* Logarithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CB19A61AE1A83A00160C2F /* Logarithm.m */; };
+		35DB39091ADD826300E3AEE9 /* BhaskaraParameterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB39081ADD826300E3AEE9 /* BhaskaraParameterViewController.m */; };
+		C02DBFEE1AE9F82500536F4B /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFE31AE9F82500536F4B /* Title.png */; };
+		C02DBFEF1AE9F82500536F4B /* MenuButtons.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFE41AE9F82500536F4B /* MenuButtons.png */; };
+		C02DBFF01AE9F82500536F4B /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFE51AE9F82500536F4B /* BG.png */; };
+		C02DBFF11AE9F82500536F4B /* Fatoracao.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFE61AE9F82500536F4B /* Fatoracao.png */; };
+		C02DBFF21AE9F82500536F4B /* ButtonsEquation.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFE71AE9F82500536F4B /* ButtonsEquation.png */; };
+		C02DBFF31AE9F82500536F4B /* PrimeiroGrau.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFE81AE9F82500536F4B /* PrimeiroGrau.png */; };
+		C02DBFF41AE9F82500536F4B /* Bhaskhara.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFE91AE9F82500536F4B /* Bhaskhara.png */; };
+		C02DBFF51AE9F82500536F4B /* Logaritmo.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFEA1AE9F82500536F4B /* Logaritmo.png */; };
+		C02DBFF61AE9F82500536F4B /* Starting.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFEB1AE9F82500536F4B /* Starting.png */; };
+		C02DBFF71AE9F82500536F4B /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFEC1AE9F82500536F4B /* Clear.png */; };
+		C02DBFF81AE9F82500536F4B /* Plain.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFED1AE9F82500536F4B /* Plain.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3560067A1ADEDB1A00A2E309 /* LogarithimParameterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogarithimParameterViewController.h; sourceTree = "<group>"; };
+		3560067B1ADEDB1A00A2E309 /* LogarithimParameterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogarithimParameterViewController.m; sourceTree = "<group>"; };
+		3560067D1ADEDB3F00A2E309 /* FactoringParameterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoringParameterViewController.h; sourceTree = "<group>"; };
+		3560067E1ADEDB3F00A2E309 /* FactoringParameterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoringParameterViewController.m; sourceTree = "<group>"; };
+		356006801ADEDB5F00A2E309 /* FirstDegreeParameterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDegreeParameterViewController.h; sourceTree = "<group>"; };
+		356006811ADEDB5F00A2E309 /* FirstDegreeParameterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDegreeParameterViewController.m; sourceTree = "<group>"; };
+		356006841ADEFE7600A2E309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Mathemagics/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3568F67C1AE175860029A4CF /* EquationInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationInfos.h; sourceTree = "<group>"; };
+		3568F67D1AE175860029A4CF /* EquationInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationInfos.m; sourceTree = "<group>"; };
+		3568F67F1AE180410029A4CF /* ReceiveEquation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiveEquation.h; sourceTree = "<group>"; };
+		3568F6801AE180F80029A4CF /* EquationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationController.h; sourceTree = "<group>"; };
+		3568F6811AE180F80029A4CF /* EquationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationController.m; sourceTree = "<group>"; };
 		357310831AD6EC72008878CC /* Mathemagics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathemagics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		357310871AD6EC72008878CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		357310881AD6EC72008878CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +68,34 @@
 		3573108B1AD6EC72008878CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3573108D1AD6EC72008878CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3573108E1AD6EC72008878CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		357310911AD6EC72008878CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		357310931AD6EC72008878CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		357310961AD6EC72008878CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3573109C1AD6EC73008878CC /* MathemagicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathemagicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		357310A11AD6EC73008878CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		357310A21AD6EC73008878CC /* MathemagicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathemagicsTests.m; sourceTree = "<group>"; };
+		35CB199D1AE1A83A00160C2F /* Bhaskara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bhaskara.h; sourceTree = "<group>"; };
+		35CB199E1AE1A83A00160C2F /* Bhaskara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bhaskara.m; sourceTree = "<group>"; };
+		35CB199F1AE1A83A00160C2F /* Fatoracao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fatoracao.h; sourceTree = "<group>"; };
+		35CB19A01AE1A83A00160C2F /* Fatoracao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fatoracao.m; sourceTree = "<group>"; };
+		35CB19A11AE1A83A00160C2F /* FirstGrade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstGrade.h; sourceTree = "<group>"; };
+		35CB19A21AE1A83A00160C2F /* FirstGrade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstGrade.m; sourceTree = "<group>"; };
+		35CB19A31AE1A83A00160C2F /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		35CB19A41AE1A83A00160C2F /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		35CB19A51AE1A83A00160C2F /* Logarithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logarithm.h; sourceTree = "<group>"; };
+		35CB19A61AE1A83A00160C2F /* Logarithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logarithm.m; sourceTree = "<group>"; };
+		35DB39071ADD826300E3AEE9 /* BhaskaraParameterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BhaskaraParameterViewController.h; sourceTree = "<group>"; };
+		35DB39081ADD826300E3AEE9 /* BhaskaraParameterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BhaskaraParameterViewController.m; sourceTree = "<group>"; };
+		C02DBFE31AE9F82500536F4B /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
+		C02DBFE41AE9F82500536F4B /* MenuButtons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuButtons.png; sourceTree = "<group>"; };
+		C02DBFE51AE9F82500536F4B /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		C02DBFE61AE9F82500536F4B /* Fatoracao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fatoracao.png; sourceTree = "<group>"; };
+		C02DBFE71AE9F82500536F4B /* ButtonsEquation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonsEquation.png; sourceTree = "<group>"; };
+		C02DBFE81AE9F82500536F4B /* PrimeiroGrau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PrimeiroGrau.png; sourceTree = "<group>"; };
+		C02DBFE91AE9F82500536F4B /* Bhaskhara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bhaskhara.png; sourceTree = "<group>"; };
+		C02DBFEA1AE9F82500536F4B /* Logaritmo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logaritmo.png; sourceTree = "<group>"; };
+		C02DBFEB1AE9F82500536F4B /* Starting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Starting.png; sourceTree = "<group>"; };
+		C02DBFEC1AE9F82500536F4B /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
+		C02DBFED1AE9F82500536F4B /* Plain.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Plain.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +116,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		356006791ADEDA5600A2E309 /* ParameterControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3568F67F1AE180410029A4CF /* ReceiveEquation.h */,
+				3568F67C1AE175860029A4CF /* EquationInfos.h */,
+				3568F67D1AE175860029A4CF /* EquationInfos.m */,
+				35DB39071ADD826300E3AEE9 /* BhaskaraParameterViewController.h */,
+				35DB39081ADD826300E3AEE9 /* BhaskaraParameterViewController.m */,
+				3560067A1ADEDB1A00A2E309 /* LogarithimParameterViewController.h */,
+				3560067B1ADEDB1A00A2E309 /* LogarithimParameterViewController.m */,
+				3560067D1ADEDB3F00A2E309 /* FactoringParameterViewController.h */,
+				3560067E1ADEDB3F00A2E309 /* FactoringParameterViewController.m */,
+				356006801ADEDB5F00A2E309 /* FirstDegreeParameterViewController.h */,
+				356006811ADEDB5F00A2E309 /* FirstDegreeParameterViewController.m */,
+				3568F6801AE180F80029A4CF /* EquationController.h */,
+				3568F6811AE180F80029A4CF /* EquationController.m */,
+			);
+			name = ParameterControllers;
+			sourceTree = "<group>";
+		};
 		3573107A1AD6EC72008878CC = {
 			isa = PBXGroup;
 			children = (
@@ -81,12 +157,14 @@
 		357310851AD6EC72008878CC /* Mathemagics */ = {
 			isa = PBXGroup;
 			children = (
+				35CB19AC1AE1A84500160C2F /* Generator */,
+				356006791ADEDA5600A2E309 /* ParameterControllers */,
 				3573108A1AD6EC72008878CC /* AppDelegate.h */,
 				3573108B1AD6EC72008878CC /* AppDelegate.m */,
 				3573108D1AD6EC72008878CC /* ViewController.h */,
 				3573108E1AD6EC72008878CC /* ViewController.m */,
-				357310901AD6EC72008878CC /* Main.storyboard */,
 				357310931AD6EC72008878CC /* Images.xcassets */,
+				356006831ADEFE7600A2E309 /* Main.storyboard */,
 				357310951AD6EC72008878CC /* LaunchScreen.xib */,
 				357310861AD6EC72008878CC /* Supporting Files */,
 			);
@@ -96,6 +174,7 @@
 		357310861AD6EC72008878CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C02DBFE21AE9F80600536F4B /* Images */,
 				357310871AD6EC72008878CC /* Info.plist */,
 				357310881AD6EC72008878CC /* main.m */,
 			);
@@ -117,6 +196,41 @@
 				357310A11AD6EC73008878CC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35CB19AC1AE1A84500160C2F /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				35CB199D1AE1A83A00160C2F /* Bhaskara.h */,
+				35CB199E1AE1A83A00160C2F /* Bhaskara.m */,
+				35CB199F1AE1A83A00160C2F /* Fatoracao.h */,
+				35CB19A01AE1A83A00160C2F /* Fatoracao.m */,
+				35CB19A11AE1A83A00160C2F /* FirstGrade.h */,
+				35CB19A21AE1A83A00160C2F /* FirstGrade.m */,
+				35CB19A31AE1A83A00160C2F /* Fraction.h */,
+				35CB19A41AE1A83A00160C2F /* Fraction.m */,
+				35CB19A51AE1A83A00160C2F /* Logarithm.h */,
+				35CB19A61AE1A83A00160C2F /* Logarithm.m */,
+			);
+			name = Generator;
+			sourceTree = "<group>";
+		};
+		C02DBFE21AE9F80600536F4B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C02DBFE31AE9F82500536F4B /* Title.png */,
+				C02DBFE41AE9F82500536F4B /* MenuButtons.png */,
+				C02DBFE51AE9F82500536F4B /* BG.png */,
+				C02DBFE61AE9F82500536F4B /* Fatoracao.png */,
+				C02DBFE71AE9F82500536F4B /* ButtonsEquation.png */,
+				C02DBFE81AE9F82500536F4B /* PrimeiroGrau.png */,
+				C02DBFE91AE9F82500536F4B /* Bhaskhara.png */,
+				C02DBFEA1AE9F82500536F4B /* Logaritmo.png */,
+				C02DBFEB1AE9F82500536F4B /* Starting.png */,
+				C02DBFEC1AE9F82500536F4B /* Clear.png */,
+				C02DBFED1AE9F82500536F4B /* Plain.pdf */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +313,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				357310921AD6EC72008878CC /* Main.storyboard in Resources */,
+				C02DBFF61AE9F82500536F4B /* Starting.png in Resources */,
+				C02DBFF21AE9F82500536F4B /* ButtonsEquation.png in Resources */,
+				C02DBFEE1AE9F82500536F4B /* Title.png in Resources */,
+				356006851ADEFE7600A2E309 /* Main.storyboard in Resources */,
+				C02DBFF71AE9F82500536F4B /* Clear.png in Resources */,
+				C02DBFF11AE9F82500536F4B /* Fatoracao.png in Resources */,
 				357310971AD6EC72008878CC /* LaunchScreen.xib in Resources */,
+				C02DBFEF1AE9F82500536F4B /* MenuButtons.png in Resources */,
+				C02DBFF01AE9F82500536F4B /* BG.png in Resources */,
+				C02DBFF31AE9F82500536F4B /* PrimeiroGrau.png in Resources */,
+				C02DBFF81AE9F82500536F4B /* Plain.pdf in Resources */,
+				C02DBFF51AE9F82500536F4B /* Logaritmo.png in Resources */,
+				C02DBFF41AE9F82500536F4B /* Bhaskhara.png in Resources */,
 				357310941AD6EC72008878CC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +344,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35DB39091ADD826300E3AEE9 /* BhaskaraParameterViewController.m in Sources */,
 				3573108F1AD6EC72008878CC /* ViewController.m in Sources */,
+				35CB19AA1AE1A83A00160C2F /* Fraction.m in Sources */,
+				35CB19A81AE1A83A00160C2F /* Fatoracao.m in Sources */,
+				3568F6821AE180F80029A4CF /* EquationController.m in Sources */,
+				35CB19AB1AE1A83A00160C2F /* Logarithm.m in Sources */,
+				3560067F1ADEDB3F00A2E309 /* FactoringParameterViewController.m in Sources */,
+				35CB19A71AE1A83A00160C2F /* Bhaskara.m in Sources */,
+				35CB19A91AE1A83A00160C2F /* FirstGrade.m in Sources */,
 				3573108C1AD6EC72008878CC /* AppDelegate.m in Sources */,
+				3560067C1ADEDB1A00A2E309 /* LogarithimParameterViewController.m in Sources */,
+				356006821ADEDB5F00A2E309 /* FirstDegreeParameterViewController.m in Sources */,
 				357310891AD6EC72008878CC /* main.m in Sources */,
+				3568F67E1AE175860029A4CF /* EquationInfos.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,12 +380,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		357310901AD6EC72008878CC /* Main.storyboard */ = {
+		356006831ADEFE7600A2E309 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				357310911AD6EC72008878CC /* Base */,
+				356006841ADEFE7600A2E309 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		357310951AD6EC72008878CC /* LaunchScreen.xib */ = {
@@ -346,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mathemagics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mathemagics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +553,7 @@
 				357310A81AD6EC73008878CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		357310A91AD6EC73008878CC /* Build configuration list for PBXNativeTarget "MathemagicsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +562,7 @@
 				357310AB1AD6EC73008878CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
