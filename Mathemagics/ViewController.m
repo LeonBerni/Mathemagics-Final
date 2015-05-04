@@ -23,5 +23,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+////    [[segue destinationViewController] conformsToProtocol:@protocol(ParameterProtocol) ];
+//    [[segue destinationViewController] setEquationName:self.equationName];
+////    [[segue destinationViewController] setNumberVariables:[self.numberOfVariables intValue]];
+//    
+//}
 
 @end

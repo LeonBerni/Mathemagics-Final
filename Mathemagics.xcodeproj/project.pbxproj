@@ -36,6 +36,8 @@
 		C02DBFF61AE9F82500536F4B /* Starting.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFEB1AE9F82500536F4B /* Starting.png */; };
 		C02DBFF71AE9F82500536F4B /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFEC1AE9F82500536F4B /* Clear.png */; };
 		C02DBFF81AE9F82500536F4B /* Plain.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFED1AE9F82500536F4B /* Plain.pdf */; };
+		C02DBFFB1AEAC7C300536F4B /* Resposta.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFF91AEAC7C300536F4B /* Resposta.png */; };
+		C02DBFFC1AEAC7C300536F4B /* Voltar.png in Resources */ = {isa = PBXBuildFile; fileRef = C02DBFFA1AEAC7C300536F4B /* Voltar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		C02DBFEB1AE9F82500536F4B /* Starting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Starting.png; sourceTree = "<group>"; };
 		C02DBFEC1AE9F82500536F4B /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
 		C02DBFED1AE9F82500536F4B /* Plain.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Plain.pdf; sourceTree = "<group>"; };
+		C02DBFF91AEAC7C300536F4B /* Resposta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resposta.png; sourceTree = "<group>"; };
+		C02DBFFA1AEAC7C300536F4B /* Voltar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Voltar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +130,6 @@
 				35DB39081ADD826300E3AEE9 /* BhaskaraParameterViewController.m */,
 				3560067A1ADEDB1A00A2E309 /* LogarithimParameterViewController.h */,
 				3560067B1ADEDB1A00A2E309 /* LogarithimParameterViewController.m */,
-				3560067D1ADEDB3F00A2E309 /* FactoringParameterViewController.h */,
 				3560067E1ADEDB3F00A2E309 /* FactoringParameterViewController.m */,
 				356006801ADEDB5F00A2E309 /* FirstDegreeParameterViewController.h */,
 				356006811ADEDB5F00A2E309 /* FirstDegreeParameterViewController.m */,
@@ -160,6 +163,7 @@
 				35CB19AC1AE1A84500160C2F /* Generator */,
 				356006791ADEDA5600A2E309 /* ParameterControllers */,
 				3573108A1AD6EC72008878CC /* AppDelegate.h */,
+				3560067D1ADEDB3F00A2E309 /* FactoringParameterViewController.h */,
 				3573108B1AD6EC72008878CC /* AppDelegate.m */,
 				3573108D1AD6EC72008878CC /* ViewController.h */,
 				3573108E1AD6EC72008878CC /* ViewController.m */,
@@ -218,6 +222,8 @@
 		C02DBFE21AE9F80600536F4B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C02DBFF91AEAC7C300536F4B /* Resposta.png */,
+				C02DBFFA1AEAC7C300536F4B /* Voltar.png */,
 				C02DBFE31AE9F82500536F4B /* Title.png */,
 				C02DBFE41AE9F82500536F4B /* MenuButtons.png */,
 				C02DBFE51AE9F82500536F4B /* BG.png */,
@@ -282,6 +288,7 @@
 				TargetAttributes = {
 					357310821AD6EC72008878CC = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7BA896ETMQ;
 					};
 					3573109B1AD6EC73008878CC = {
 						CreatedOnToolsVersion = 6.2;
@@ -318,6 +325,7 @@
 				C02DBFEE1AE9F82500536F4B /* Title.png in Resources */,
 				356006851ADEFE7600A2E309 /* Main.storyboard in Resources */,
 				C02DBFF71AE9F82500536F4B /* Clear.png in Resources */,
+				C02DBFFC1AEAC7C300536F4B /* Voltar.png in Resources */,
 				C02DBFF11AE9F82500536F4B /* Fatoracao.png in Resources */,
 				357310971AD6EC72008878CC /* LaunchScreen.xib in Resources */,
 				C02DBFEF1AE9F82500536F4B /* MenuButtons.png in Resources */,
@@ -327,6 +335,7 @@
 				C02DBFF51AE9F82500536F4B /* Logaritmo.png in Resources */,
 				C02DBFF41AE9F82500536F4B /* Bhaskhara.png in Resources */,
 				357310941AD6EC72008878CC /* Images.xcassets in Resources */,
+				C02DBFFB1AEAC7C300536F4B /* Resposta.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,10 +491,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Mathemagics/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -493,10 +505,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Mathemagics/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
